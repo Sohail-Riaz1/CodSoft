@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Job Board</title>
+  <link rel="stylesheet" href="style10.css">
+</head>
+<body>
+  <header>
+    <h1>Job Board of DG KHAN</h1>
+    <button id="postJobButton">Post a Job</button>
+  </header>
+   <main>
+    <section id="jobListings">
+    </section>
+     <section id="postJobForm" class="hidden">
+      <form id="jobForm">
+        <input type="text" id="jobTitle" placeholder="Job Title" required>
+        <textarea id="jobDescription" placeholder="Job Description" required></textarea>
+        <input type="text" id="jobLocation" placeholder="Job Location" required>
+        <button class="submit">Apply Now</button>        
+      </form>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
